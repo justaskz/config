@@ -1,0 +1,3 @@
+function mdebug {
+  echo MASHINA!
+}

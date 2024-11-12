@@ -1,0 +1,41 @@
+format = """
+$os\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$aws\
+$line_break\
+$character
+"""
+
+command_timeout = 3000
+
+[username]
+style_user = 'bold white'
+style_root = 'bold red'
+
+[hostname]
+ssh_only = false
+trim_at = ""
+ssh_symbol = ""
+detect_env_vars = ['!KITTY_WINDOW_ID']
+
+[git_branch]
+symbol = ""
+
+[os]
+disabled = false
+format = "[$symbol](bold white) "
+
+[os.symbols]
+Debian = ""
+Macos = ""
+Ubuntu = ""
+
+[directory]
+read_only = " 󰌾"
+
+[aws]
+format = "$symbol"
