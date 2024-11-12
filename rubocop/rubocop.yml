@@ -1,0 +1,45 @@
+---
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/**/*'
+    - 'tmp/**/*'
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*"
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 99
+
+Naming/VariableNumber:
+  Enabled: false
+  EnforcedStyle: snake_case
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/OpenStructUse:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/WordArray:
+  EnforcedStyle: brackets
