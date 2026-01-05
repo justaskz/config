@@ -3,6 +3,7 @@ init_files:
   - files/aliases.sh
   - files/env.sh
   - files/functions.sh
+
 packages:
   - name: fzf
     version: 0.56
